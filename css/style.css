@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.logo {
+    height: 160px;
+}
+
+
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	overflow: hidden;
+	padding: 25px 15px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+}
+.product:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.product-img {
+    
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+.product-title a {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.product-title {
+	padding-bottom: 10px;
+}
+
+.product-desc {
+    overflow: hidden;
+}
+
+
+.product-price {
+	bottom: 15px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	color: #5c5c5c;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(192, 192, 192);
+}
+
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
+
+
+.first_section {
+    margin-top: 50px;
+}
+
+.second_section {
+    margin-top: 50px;
+}
+
+.third_section {
+    margin-top: 100px;
+}
+
+.four_section {
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.navbar-nav .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.forma_auth label {
+    margin-bottom: 5px;
+}
+
+.forma_auth input{
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.formaorder label{
+    margin-bottom: 5px;
+}
+
+.formaorder label input {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+main {
+	min-height: calc(60vh - 80px);
+}
+
+.second_section {
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+}
+
+.carousel-control-prev {
+    left: -150px;
+}
+
+
+.carousel-control-next {
+    right: -150px;
+}
+
+
+.first_block_contact {
+    margin-top: 25px;
+}
+
+.second_block_contact {
+    margin-top: 25px;
+}
+
+.shop img {
+    width: 350px;
+}
+
+.image_block {
+    height: 100%;
+    width: 900px;
+}
+
+.shop {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.map {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.form-cart button {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.total {
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    width: 250px;
+}
+
+.form_contar input[type="text"], input[type="address"], input[type="tel"], input[type="email"], input[type="name"] {
+    width: 300px;
+    height: 40px;
+    border-radius: 55px;
+    padding: 15px;
+}
+
+.form_conta {
+    border: 2px solid rgb(192, 192, 192);
+    width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/*Высота слайдов*/
+.carousel-item1 {
+    height: 900px;
+}
+
+@media (max-width: 375px) {
+    .brend_logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our_shop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .shop img {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .cart_people {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart_popular {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart_popular .card {
+        margin-bottom: 15px;
+    }
+
+    .new_collection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_block {
+        text-align: center;
+        width: 250px;
+    }
+
+    .footer_flex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .footer_block_first, .footer_block_second, .footer_block_third {
+        margin-bottom: 25px;
+    }
+
+    .fa {
+        padding-left: 25px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .list-group {
+        margin-bottom:15px;
+    }
+    .text_footer_boottom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 993px) {
+    .cart_people {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart_popular {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart_popular .card {
+        margin-bottom: 15px;
+    }
+
+    .our_shop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .shop img {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .second_section {
+        display: none;
+    }
+
+    .image_block {
+        width: 300px;
+    }
+}
+
